@@ -1,14 +1,14 @@
 {
-    "compilerOptions": {
-      "target": "es5",
-      "module": "ES6",
-      "outDir": "./dist",
-      "rootDir": "./src"
-    },
-    "include": [ // src 내부 모든 파일 포함
-      "src/**/*.ts"
-    ],
-    "exclude": [ // src 내부 img 폴더 및 아래 모든 파일 제외
-      "src/img/**/*.ts"
-    ]
-  }
+  "compilerOptions": {
+    "target": "es5",
+    "module": "ES6",
+    "outDir": "./dist",
+    "rootDir": "./src"
+  },
+  "include": [ // src 내부 모든 파일 포함
+    "src/**/*.ts"
+  ],
+  "exclude": [ // src 내부 img 폴더 및 아래 모든 파일 제외
+    "src/img/**/*.ts"
+  ]
+}
