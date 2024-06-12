@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "module": "ES6",
+    "target": "es6",
+    // "module": "ES6",
+    "outFile": "./dist/bundle.js",//module should is system or amd,
     "outDir": "./dist",
     "rootDir": "./src"
   },
