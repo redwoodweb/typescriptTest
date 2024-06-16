@@ -4,9 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="./dist/bundle.js"></script>
+    <style>
+        #popup {
+            position: fixed;
+            width: 500px;
+            height: 500px;
+            background-color: red;
+            color: white;
+            left: 300px;
+            top: 300px;
+            z-index: 10;
+        }
+    </style>
 </head>
 <body>
-    this is ignore test project
+    <div id="popup" onclick="closePopup()">
+        popup test
+    </div>
+    <script src="./dist/bundle.js" defer></script>
 </body>
 </html>
