@@ -21,7 +21,6 @@
 
 // let resultNum: string = testFunc(new Date());
 // console.log(resultNum);
-
 const testFunc = (num: number) : string => {
     let dayNum:number | string = num;
     switch(dayNum){
