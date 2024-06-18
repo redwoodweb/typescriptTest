@@ -1,11 +1,11 @@
 {
   "compilerOptions": {
     "target": "es6",
-    // "module": "ES6",
-    "outFile": "./dist/bundle.js",//module should is system or amd, make to bundle one file
-    "paths": {
-      "@/*": ["./src/*"]
-    },
+    "module": "ES6",
+    // "outFile": "./dist/bundle.js",//module should is system or amd, make to bundle one file
+    // "paths": {
+    //   "@/*": ["./src/*"]
+    // },
     "outDir": "./dist",
     "rootDir": "./src"
   },
